@@ -1,0 +1,9 @@
+{
+	"name": "datafactoriespunith",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "758cabe8-036d-446e-afa0-12de841ad754",
+		"tenantId": "e0793d39-0939-496d-b129-198edd916feb"
+	}
+}
