@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "Proof of Supervision, Format 2.csv",
+				"fileName": "MF_SourceFile_CompleteColumns.csv",
 				"container": "containerazuretrainingpunith"
 			},
 			"columnDelimiter": ",",
