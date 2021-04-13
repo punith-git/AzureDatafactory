@@ -1,0 +1,56 @@
+{
+	"name": "MFTargetData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SupervisorID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "MessageID",
+				"type": "varchar"
+			},
+			{
+				"name": "MessageDirection",
+				"type": "varchar"
+			},
+			{
+				"name": "Status",
+				"type": "varchar"
+			},
+			{
+				"name": "ReviewStatus",
+				"type": "varchar"
+			},
+			{
+				"name": "ReadStatus",
+				"type": "varchar"
+			},
+			{
+				"name": "MessageType",
+				"type": "varchar"
+			},
+			{
+				"name": "Attachment",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "MessageSize",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "MFEmailDataSample"
+		}
+	}
+}

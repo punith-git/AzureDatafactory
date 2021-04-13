@@ -1,0 +1,60 @@
+{
+	"name": "MFSampleDataSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MF_AzureBlobStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "MF_Sourcefile.csv",
+				"container": "containerazuretrainingpunith"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "SupervisorID",
+				"type": "String"
+			},
+			{
+				"name": "MessageID",
+				"type": "String"
+			},
+			{
+				"name": "MessageDirection",
+				"type": "String"
+			},
+			{
+				"name": "Status",
+				"type": "String"
+			},
+			{
+				"name": "ReviewStatus",
+				"type": "String"
+			},
+			{
+				"name": "ReadStatus",
+				"type": "String"
+			},
+			{
+				"name": "MessageType",
+				"type": "String"
+			},
+			{
+				"name": "Attachment",
+				"type": "String"
+			},
+			{
+				"name": "MessageSize",
+				"type": "String"
+			}
+		]
+	}
+}

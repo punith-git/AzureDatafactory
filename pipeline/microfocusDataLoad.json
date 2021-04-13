@@ -42,13 +42,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "MicrofocusSourceData",
+						"referenceName": "MFSampleDataSource",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureSqlTable1",
+						"referenceName": "MFTargetData",
 						"type": "DatasetReference"
 					}
 				]
