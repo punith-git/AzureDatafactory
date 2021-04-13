@@ -1,0 +1,7 @@
+{
+	"name": "microfocusDataLoad",
+	"properties": {
+		"description": "Load data for Microfocus",
+		"annotations": []
+	}
+}
