@@ -42,7 +42,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DelimitedText1",
+						"referenceName": "MicrofocusSourceData",
 						"type": "DatasetReference"
 					}
 				],
