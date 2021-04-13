@@ -1,0 +1,144 @@
+{
+	"name": "MFCompleteColumnTarget",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SupervisorID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "MessageID",
+				"type": "varchar"
+			},
+			{
+				"name": "MessageDirection",
+				"type": "varchar"
+			},
+			{
+				"name": "Status",
+				"type": "varchar"
+			},
+			{
+				"name": "ReviewStatus",
+				"type": "varchar"
+			},
+			{
+				"name": "ReadStatus",
+				"type": "varchar"
+			},
+			{
+				"name": "MessageType",
+				"type": "varchar"
+			},
+			{
+				"name": "NOOfAttachments",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "MessageSiz_kB",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "SampledMailboxGroupCount",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "NumberofRecipients",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "From_Person",
+				"type": "varchar"
+			},
+			{
+				"name": "To_Person",
+				"type": "varchar"
+			},
+			{
+				"name": "MessageSubject",
+				"type": "varchar"
+			},
+			{
+				"name": "Policy",
+				"type": "varchar"
+			},
+			{
+				"name": "Term",
+				"type": "varchar"
+			},
+			{
+				"name": "SentDate_GMT",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ArchiveDate_GMT",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ActionedBy",
+				"type": "varchar"
+			},
+			{
+				"name": "ReviewStatusDate_GMT",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "Label",
+				"type": "varchar"
+			},
+			{
+				"name": "LabeledBy",
+				"type": "varchar"
+			},
+			{
+				"name": "LabeledDate_GMT",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "FirstReadBy",
+				"type": "varchar"
+			},
+			{
+				"name": "FirstReadDate_GMT",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "UserComments",
+				"type": "varchar"
+			},
+			{
+				"name": "NotificationSent",
+				"type": "varchar"
+			},
+			{
+				"name": "SampledMailboxGroups",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "MICROFOCUSEMAILDATA"
+		}
+	}
+}
