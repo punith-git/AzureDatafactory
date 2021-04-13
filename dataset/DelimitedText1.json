@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "target",
+				"fileName": "Proof of Supervision, Format 2",
 				"container": "containerazuretrainingpunith"
 			},
 			"columnDelimiter": ",",
